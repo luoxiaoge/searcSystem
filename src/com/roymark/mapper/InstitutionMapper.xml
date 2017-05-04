@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.roymark.mapper.InstitutionMapper">
+    <select id="findIns" resultType="com.roymark.pojo.Institution" parameterType="int">
+         select * from institution where id=#{id}
+    </select>
+    <insert id="insertIns" parameterType="String">
+          insert into institution set i_introduction=#{i_introduction}
+    </insert>
+    <update id="updateIns" parameterType="String">
+       update institution set i_introduction=#{i_introduction}
+    </update>
+</mapper>

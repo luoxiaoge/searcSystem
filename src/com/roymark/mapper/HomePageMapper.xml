@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.roymark.mapper.HomePageMapper">
+      <!--插入图片地址  -->
+      <insert id="insertPhoto" parameterType="String">
+           insert into homepage set address=#{address}
+      </insert>
+      <!--查询所有的图片  -->
+      <select id="findAllPhoto" resultType="com.roymark.pojo.HomePage">
+           select * from homepage
+      </select>
+      <!--删除指定的图片  -->
+      <delete id="deletePhoto" parameterType="String">
+             delete from homepage where id=#{id}
+      </delete>
+      <!--查询指定的图片  -->
+      <select id="findPhotoById" parameterType="int" resultType="com.roymark.pojo.HomePage">
+             select * from homepage where id=#{id}
+      </select>
+</mapper>

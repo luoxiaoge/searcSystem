@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.roymark.mapper.ContactUsMapper">
+ <select id="findcu" resultType="com.roymark.pojo.ContactUs" parameterType="int">
+    select * from contactus where cu_id=#{cu_id}
+ </select>
+  <insert id="insertcu" parameterType="String">
+      insert into contactus set cu_content=#{cu_content}
+  </insert>
+</mapper>

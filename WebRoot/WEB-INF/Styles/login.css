@@ -1,0 +1,65 @@
+body {
+    display: block;
+    overflow: hidden;
+    background-image:url(images/mid.jpg);
+}
+.loginmain {
+    z-index: 888;
+    height: 340px;
+    width: 540px;
+    position: absolute;
+    margin-left: -270px;
+    margin-top: -170px;
+    left: 50%;
+    top: 50%;
+    background: #808080;
+    opacity: .3;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  
+}
+
+.row-fluid {
+    z-index: 889;
+    text-align: center;
+    opacity: .8;
+    height: 320px;
+    width: 520px;
+    position: absolute;
+    margin-left: -260px;
+    margin-top: -160px;
+    left: 50%;
+    top: 50%;
+    background: #FFF;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.row-fluid h1 {
+    padding: 25px 0;
+    color: #0b9cd3;
+    font-family: fzqt;
+}
+
+.row-fluid hr {
+    width: 80%;
+    border: none;
+    margin: 10px auto;
+    height: 1px;
+  
+}
+
+.row-fluid .tip {
+    color: red;
+}
+
+.btn {
+    width: 95px;
+}
+
+
+
+

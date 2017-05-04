@@ -1,0 +1,91 @@
+   *{padding: 0; margin: 0;}
+        body{width: 1903px;  }
+        ul{list-style: none;}
+        a{text-decoration: none;}
+        button{
+            font-family: 30px;
+            background-color: blue;
+        }
+        /*指南*/
+        ul{list-style: none;}
+        .nav-right{height: 135px;width: 1240px;border-bottom: 2px solid #dcdcdc;margin-left: 250px;}
+         #title{position: relative;top: 90px}
+         #nowDo{margin-top: 60px;margin-left: 900px;font-size: 25px}
+         #nowDo li{float: left;}
+        .yan{margin-top: 105px; margin-left: 10px}
+        .yan li a{ font-size: 40px;}
+        .yan li span{font-size: 40px; font-weight: bold;}
+        .yan li{line-height: 50px;}
+        .yan li:hover{ background-color: #8DD7FF}
+        .yan li:hover a{text-decoration: none;}
+        a:hover{text-decoration: underline;color: #111;}
+
+        #header h1 {font-size: 28px;letter-spacing: 10px;padding: 23px 0 0 150px; color: #ffff00;}
+
+        #content{width: 1900px;height:720px;padding: 0 20px; background-color: #FFFFFF;display: none}
+        .content_left{float: left;width: 230px;height:700px;margin-top: 40px;margin-left:30px;background: #cccccc;border: 3px solid blue}
+        .content_right{float: left;height:700px;width: 1600px }
+        /*.content_left img,.content_right img{width: 100%;height: 100%}*/
+        /*首页*/
+        #log1{float:left;margin:15px 0 0 105px;}
+        .nav-box{overflow:hidden;width:1903px; height: 150px; background-color: #0372c3;}
+        .nav-box h1{float: left;padding-left: 15px;color:#FFFFFF;font-size: 50px }
+         #word{float: left;margin-left: 450px;margin-top: 30px}
+        .pub-name{margin:36px 10px; width: 565px;float: left}
+        .nav-p1{color: #ffffff; font-size: 42px; text-align: center;}
+        .nav-p2{color: #ffffff; font-size: 18px;text-align: center;}
+        /*设置中间div隐藏*/
+        .main{width: 100%;  background-color: #026fc1; height: 720px; position: absolute;
+            top: 180px; left:0; overflow: hidden; display: block }
+        .main-left,.main-right{width: 360px; height: 100%; }
+        .main-left{float: left;}
+        .main-right{float: right;}
+        .main-right img, .main-left img, .main-center img{width: 100%; height: 100%;}
+        .main-center{width: 1182px; height: 100%; float: left;}
+        .floor ul{margin:25px 0 18px 168px;}
+        .floor{overflow: hidden; position: absolute; top:920px; left:0; width: 100%; height: 140px; background-color: #1b6dc3;}
+        .floor ul li{float: left; font-size: 46px; }
+        .floor li a{color: #fff; padding: 28px 100px;margin:0  30px; text-decoration: none;}
+        .floor li a:hover{text-decoration: none; background-color: #f2ad36;}
+        .floor li b{float: right; width: 2px; height: 60px; background-color: #013879;}
+        /*关于本院*/
+         ul{ list-style: none;}
+        #title2{position: relative;top: 90px}
+        #nowDo2{margin-top: 60px;margin-left: 900px;font-size: 25px}
+        #nowDo2 li{float: left;}
+        .about_nav{height: 135px;width: 1240px;border-bottom: 2px solid #dcdcdc;margin-left: 250px}
+
+        .about_left_u{margin-top: 105px; margin-left: 10px}
+        .about_left_u li a{ font-size: 40px; }
+        .about_left_u li span{font-size: 40px; font-weight: bold;}
+        .about_left_u li{line-height: 50px;}
+        .about_left_u li:hover{ background-color: #8DD7FF}
+        .about_left_u li:hover a{text-decoration: none;}
+        a:hover{text-decoration: underline;color: #111;}
+
+        #header h1 {font-size: 28px;letter-spacing: 10px;padding: 23px 0 0 150px; color: #ffff00;}
+
+        #about{width: 1900px;height:720px;padding: 0 20px; background-color: #FFFFFF;display: none}
+        .about_left{float: left;width: 230px;height:700px;margin-top: 40px;margin-left:30px;background: #cccccc;border: 3px solid blue}
+        .about_right{float: left;height:700px;width: 1600px }
+        /* .about_left img,.about_right img{width: 100%;height: 100%}*/
+        /*联系我们*/
+        #title3{position: relative;top: 90px}
+        #nowDo3{margin-top: 60px;margin-left: 900px;font-size: 25px}
+        #nowDo3 li{float: left;}
+         ul{ list-style: none;}
+        .ContactInformation_nav{height: 135px;width: 1240px;border-bottom: 2px solid #dcdcdc;margin-left: 250px}
+
+        .ContactInformation_left_u{margin-top: 105px; margin-left: 10px}
+        .ContactInformation_left_u li a{ font-size: 40px; }
+        .ContactInformation_left_u li span{font-size: 40px; font-weight: bold;}
+        .ContactInformation_left_u li{line-height: 50px;}
+        .ContactInformation_left_u li:hover{ background-color: #8DD7FF}
+        .ContactInformation_left_u li:hover a{text-decoration: none;}
+        a:hover{text-decoration: underline;color: #111;}
+
+        #header h1 {font-size: 28px;letter-spacing: 10px;padding: 23px 0 0 150px; color: #ffff00;}
+
+        #ContactInformation{width: 1900px;height:720px;padding: 0 20px; background-color: #FFFFFF;display: none}
+        .ContactInformation_left{float: left;width: 250px;height:700px;margin-top: 40px;margin-left:10px;background: #cccccc;border: 3px solid blue}
+        .ContactInformation_right{float: left;height:700px;width: 1600px }
